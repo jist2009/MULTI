@@ -117,3 +117,35 @@ Initialisation de la chaine de caractère :
 La RAM envoie vers le TTY la data , "Hello World!" il contient 12 caractères = 3 mots.
 Or le bus transfert 1 mot à chaque fois, donc il y a 3 transfert.
 La vérification se fait dans 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# G1 : 1000000 cycles / 7.5 secondes = 133333 cycles par secondes
+# G2 : Combien y-a-t-il de cycles d'attente dans les états de l'automate du composant maître
+    2 cycles d'attente dans l'état maitre
+
+# G 3 : 
+    2 cycles d'attente en READ_WAIT
+
+# G4 : Combien faut-il de cycles à l'automate du composant maître pour afficher un caractère sur le composant PIBUS_MULTI_TTY ? 
+    3 cycles : STS_REQ, STS_AD, STS_DT
+
+#  Question G5 : Dessinez le chronogramme correspondant aux 20 premiers cycles d'exécution, en représentant : les états internes des 4 automates des 4 composants, ainsi que les signaux du Pibus : REQ, GNT, SEL_RAM, SEL_TTY, A, LOCK, READ, D, ACK. 
