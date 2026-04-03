@@ -8,9 +8,11 @@ Found no method able to load file soft/app.bin even if tried:
 ## Compilez app.bin
   make dans /soft
 
+Il faut recompilez a chaque modification du matérielle
 ## Compilez le fichier tp5_top.cpp pour créer l'exécutable de simulation simul.x 
   soclib-cc -p tp5.desc -t systemcass -o simul.x
 
-./simul.x -NCYCLES 10000000
+./simul.x -NCYCLES 10000000 -STATS
 
 
+./simul.x -NCYCLES 5000000
