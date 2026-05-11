@@ -16,3 +16,7 @@ Il faut recompilez a chaque modification du matérielle
 
 
 ./simul.x -NCYCLES 5000000
+
+## envoyer fichier/dossier sur un répertoire ssh
+
+scp /chemin/local/fichier.txt utilisateur@adresse_ip:/chemin/distant/
