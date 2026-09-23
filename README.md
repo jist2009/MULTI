@@ -15,8 +15,8 @@ Ce dépôt regroupe l'ensemble des travaux pratiques réalisés dans le cadre de
 - **TP10: Partage du processeur/ Communication des tâches:**  Multiplexage temporel(round-robin), sauvegarde et restauration des contextes de tâches via les routines d'interruption horloge.
 
 ## Prérequis
-Languages: C, C++, Assembleur MIPS32
-Modélisation: SystemC
-Plateforme: SoCLib (modèles de simulation de composants matériels)
-Système d'exploitation: GIET (Interruptions, Exceptions)
+Languages: C, C++, Assembleur MIPS32\
+Modélisation: SystemC\
+Plateforme: SoCLib (modèles de simulation de composants matériels)\
+Système d'exploitation: GIET (Interruptions, Exceptions)\
 Compilation : GCC Cross-Compiler (mipsel-unknown-elf)
